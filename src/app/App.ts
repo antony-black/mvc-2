@@ -1,13 +1,13 @@
-import MainPage from "../main/Main";
-import SettingsPage from "../settings/SettingsPage";
-import StatisticsPage from "../statistics/StatisticsPage";
-import ErrorPage from "../error/ErrorPage";
-import Page from "../../core/templates/Page";
-import Header from "../../core/components/Header";
-import { EPageNames,  } from "../../enums/EPageNames";
-import { EHtml } from "../../enums/EHtml";
-import { EEvents } from "../../enums/EEvents";
-import Utils from "../../utils/Utils";
+import MainPage from "../pages/main/Main";
+import SettingsPage from "../pages/settings/SettingsPage";
+import StatisticsPage from "../pages/statistics/StatisticsPage";
+import ErrorPage from "../pages/error/ErrorPage";
+import Page from "../core/templates/Page";
+import Header from "../core/components/Header";
+import { EPageNames,  } from "../enums/EPageNames";
+import { EHtml } from "../enums/EHtml";
+import { EEvents } from "../enums/EEvents";
+import Utils from "../utils/Utils";
 
 
 class App {

@@ -1,6 +1,6 @@
 import Component from "../templates/Component";
 import { EHtml } from "../../enums/EHtml";
-import Switchers from "./Switchers";
+import Switchers from "../../constants/Switchers";
 import Utils from "../../utils/Utils";
 
 class Header extends Component {

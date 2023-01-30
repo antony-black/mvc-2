@@ -1,5 +1,5 @@
-import { EPageNames } from "../../enums/EPageNames";
-import textUI from "../../constants/textUI";
+import { EPageNames } from "../enums/EPageNames";
+import textUI from "./textUI";
 
 class Switchers {
   public static BUTTONS = [
